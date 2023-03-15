@@ -1,0 +1,23 @@
+.custom--nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFF7ED;
+    padding: 36px 26px;
+}
+
+.custom--nav .home--title {
+    color: black;
+    font-weight: 900;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.custom--nav .about--title,
+.custom--nav .vans--title {
+    text-decoration: none;
+    color: rgba(77, 77, 77, 1);
+    font-weight: 600;
+    font-size: 16px;
+    padding: 10px;
+}

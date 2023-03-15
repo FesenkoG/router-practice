@@ -1,0 +1,43 @@
+.container--about {
+    position: relative;
+    background-color: #FFF7ED;
+}
+
+.about--container--main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 104px;
+}
+
+.container--about--text {
+    padding: 26px;
+    max-width: 800px;
+}
+
+.about--image {    
+    max-width: 800px;
+    min-width: 200px;
+    padding: 2px;
+}
+
+.van--promotion--banner {
+    padding: 32px;
+    background-color: #FFCC8D;
+    border-radius: 5px;
+}
+
+.about--button {
+    color: white;
+    padding: 12px 22px;
+    font-weight: 700;
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+}
+
+.empty-space {
+    width: 100%;
+    height: 500px;
+}
