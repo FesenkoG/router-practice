@@ -1,7 +1,6 @@
 import React from "react";
 import NavigationBar from "../../elements/NavigationBar/NavigationBar";
 import Footer from "../../elements/Footer/Footer";
-import background from "../../resources/home-background-image.png";
 import "./Home.css"
 
 export default function Home() {

@@ -9,7 +9,7 @@ export default function About() {
         <div className="container--about">
             <NavigationBar />
             <div className="about--container--main">
-                <img className="about--image" src={background} />
+                <img className="about--image" src={background} alt="lol"/>
                 <div className="container--about--text">
                     <h1>
                         Don’t squeeze in a sedan when you could relax in a van.
