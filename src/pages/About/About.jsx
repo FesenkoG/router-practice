@@ -1,13 +1,11 @@
 import React from "react";
 import Footer from "../../elements/Footer/Footer";
-import NavigationBar from "../../elements/NavigationBar/NavigationBar";
 import background from "../../resources/about-background-image.png";
 import './About.css'
 
 export default function About() {
     return (
         <div className="container--about">
-            <NavigationBar />
             <div className="about--container--main">
                 <img className="about--image" src={background} alt="lol"/>
                 <div className="container--about--text">
@@ -25,7 +23,6 @@ export default function About() {
                     </div>
                 </div>
             </div>
-            <Footer />
         </div>
     )
 }

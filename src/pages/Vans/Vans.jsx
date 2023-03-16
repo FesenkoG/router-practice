@@ -1,6 +1,5 @@
 import React from "react";
 import Footer from "../../elements/Footer/Footer";
-import NavigationBar from "../../elements/NavigationBar/NavigationBar";
 import { Link } from "react-router-dom";
 import './Vans.css'
 
@@ -29,13 +28,11 @@ export default function Vans() {
 
     return (
         <div className="vans--container">
-            <NavigationBar />
             <div className="van-list-container">
                 <div className="van-list">
                     {vanElements}
                 </div>
             </div>
-            <Footer />
         </div>
     )
 }

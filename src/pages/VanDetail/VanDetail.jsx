@@ -1,5 +1,4 @@
 import React from "react"
-import NavigationBar from "../../elements/NavigationBar/NavigationBar"
 import Footer from "../../elements/Footer/Footer"
 import { useParams } from "react-router-dom";
 import './VanDetails.css'
@@ -17,7 +16,6 @@ export default function VanDetail() {
 
     return (
         <div className="van-details-c">
-            <NavigationBar />
             <div className="van-detail-container">
                 {van ? (
                     <div className="van-detail">
@@ -30,7 +28,6 @@ export default function VanDetail() {
                     </div>
                 ) : <h2>Loading...</h2>}
             </div>
-            <Footer />
         </div>
     )
 }
