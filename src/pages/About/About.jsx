@@ -1,5 +1,4 @@
 import React from "react";
-import Footer from "../../elements/Footer/Footer";
 import background from "../../resources/about-background-image.png";
 import './About.css'
 

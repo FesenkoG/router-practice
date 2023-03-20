@@ -1,5 +1,4 @@
 import React from "react"
-import Footer from "../../elements/Footer/Footer"
 import { useParams } from "react-router-dom";
 import './VanDetails.css'
 import '../Vans/Vans.css'
