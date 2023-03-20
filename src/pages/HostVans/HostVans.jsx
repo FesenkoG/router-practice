@@ -19,7 +19,7 @@ export default function HostVans() {
             className="host-van-link-wrapper"
         >
             <div className="host-van-single" key={van.id}>
-                <img src={van.imageUrl} />
+                <img src={van.imageUrl} alt=''/>
                 <div className="host-van-info">
                     <h3>{van.name}</h3>
                     <p>${van.price}/day</p>
